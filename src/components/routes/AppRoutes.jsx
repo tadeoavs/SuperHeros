@@ -3,7 +3,7 @@ import { Route, Routes } from 'react-router-dom';
 import HomePage from '../home/HomePage';
 import Heroes from '../pages/heroes/Heroes';
 import HeroDetails from '../pages/heroes/HeroDetails';
-import About from '../pages/about/about';
+import About from '../pages/about/About';
 import Contact from '../pages/contact/Contact';
 import UniversePage from '../pages/universe/UniversePage';
 import ApiComponent from '../pages/api/ApiComponent';
