@@ -8,7 +8,7 @@ import Contact from '../pages/contact/Contact';
 import UniversePage from '../pages/universe/UniversePage';
 import ApiComponent from '../pages/api/ApiComponent';
 import HeroDetailPage from '../pages/heroes/HeroDetailPage';
-import Me from '../pages/me/me';
+
 
 import NotFound from '../error/NotFound';
 
@@ -23,7 +23,6 @@ export default function AppRoutes() {
             <Route path="/universe/:universe" element={<UniversePage />} />
             <Route path="/hero" element={<ApiComponent />} />
             <Route path="/heroe/:heroName" element={<HeroDetailPage />} /> 
-            <Route path='/me' element={<Me />} />
             <Route path="*" element={<NotFound/>} />
         </Routes>
     );
