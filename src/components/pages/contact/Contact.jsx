@@ -4,12 +4,11 @@ import Grid from "@mui/material/Grid2";
 import EmailIcon from '@mui/icons-material/Email';
 import PhoneIcon from '@mui/icons-material/Phone';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
-import HeroImage from '../../../components/home/images/fon.jpeg'; // Asegúrate de tener una imagen de fondo relacionada con superhéroes
 
 export default function Contact() {
     return (
         <Box sx={{
-            backgroundImage: `url(${HeroImage})`,
+            backgroundImage: 'url(/images/fon.jpeg)',
             backgroundSize: 'cover',
             backgroundPosition: 'center',
             minHeight: '100vh',

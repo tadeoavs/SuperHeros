@@ -148,7 +148,7 @@ export default function HomePage() {
                                     <CardMedia
                                         component="img"
                                         height="250"
-                                        image="/src/components/home/images/R.jpg"
+                                        image="/public/images/R.jpg"
                                         alt="Marvel"
                                         sx={{ objectFit: "cover" }}
                                     />
@@ -179,7 +179,7 @@ export default function HomePage() {
                                     <CardMedia
                                         component="img"
                                         height="250"
-                                        image="/src/components/home/images/j.jpg"
+                                        image="/public/images/j.jpg"
                                         alt="DC"
                                         sx={{ objectFit: "cover" }}
                                     />
