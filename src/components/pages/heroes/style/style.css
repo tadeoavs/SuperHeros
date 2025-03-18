@@ -1,0 +1,10 @@
+
+.container {
+    
+        min-height: 100vh; /* Asegura que el contenedor cubra al menos el 100% de la altura del viewport */
+        width: 100%;
+        background-color: #f0f0f0;
+        padding: 20px;
+        box-sizing: border-box; /* Asegura que el padding se incluya en el tamaño total */
+    
+}
