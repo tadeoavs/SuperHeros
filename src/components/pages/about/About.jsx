@@ -14,7 +14,7 @@ export default function About() {
                 <Box sx={{ textAlign: 'center', mb: 3 }}>
                     <Avatar
                         alt="SuperHeros Logo"
-                        src="/src/components/images/logo.webp"
+                        src="/images/logo.webp"
                         sx={{ width: 100, height: 100, mx: 'auto' }}
                     />
                 </Box>
@@ -25,7 +25,7 @@ export default function About() {
                     Nuestro proyecto utiliza la poderosa <strong>SuperHero API</strong> para obtener datos en tiempo real sobre tus héroes favoritos. Ya seas fan de Marvel, DC u otro universo, nuestra aplicación tiene todo lo que necesitas.
                 </Typography>
                 <Box sx={{ textAlign: 'center', mb: 3 }}>
-                    <img src="/src/components/images/R.jpg" alt="SuperHeros" style={{ width: '100%', borderRadius: '8px' }} />
+                    <img src="/images/iconos.jpg" alt="SuperHeros" style={{ width: '100%', borderRadius: '8px' }} />
                 </Box>
                 <Typography variant="h4" component="h2" gutterBottom>
                     Características del Proyecto SuperHeros
